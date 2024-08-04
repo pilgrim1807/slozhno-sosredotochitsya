@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--main-font-family);
+    background-color: var(--main-bg-color);
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+a {
+    color: currentColor;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+

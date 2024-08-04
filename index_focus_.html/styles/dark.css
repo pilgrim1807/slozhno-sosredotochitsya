@@ -1,0 +1,30 @@
+.page.theme_dark {
+    --accent-color: #ff0070;
+    --main-bg-color: #000028;
+    --nav-color: #ff0070;
+    --header-logo-color: #db00ff;
+    --footer-logo-color: #db00ff;
+    --main-text-color: #f1b2ce;
+    --main-heading-color: #000028;
+    --section-heading-color: #ff0070;
+}
+
+.page.theme_auto {
+    --accent-color: #ff0070;
+    --main-bg-color: #000028;
+    --nav-color: #ff0070;
+    --header-logo-color: #db00ff;
+    --footer-logo-color: #db00ff;
+    --main-text-color: #f1b2ce;
+    --main-heading-color: #000028;
+    --section-heading-color: #ff0070;
+}
+
+.theme_dark .header__theme-menu-button_active {
+    border: 1px solid var(--nav-color);
+}
+
+.theme_dark .header__theme-menu-button:hover {
+    --nav-hover-color: rgb(225 0 112 / 0.4);
+}
+
